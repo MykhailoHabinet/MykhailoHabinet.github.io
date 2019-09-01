@@ -1,0 +1,377 @@
+body {
+    width: 100%;
+    font-family: 'Slabo 27px', serif;
+}
+/* block one */
+.border {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Slabo 27px', serif;
+}
+.first_block {
+    height: 60px;
+}
+.company_name_head {
+    font-size: 35px;
+    color: orange;
+    padding: 25px;
+    float: left;
+    margin: -40px 0px 0px 0px;
+}
+.company_name_company {
+    text-transform: uppercase;
+    color: blue;
+}
+.item_list_head {
+position: relative;
+color: gainsboro;
+padding:  25px;
+text-transform: uppercase;
+display: inline-block;
+float: left;
+}
+.item_list_head:hover {
+    color: blue;
+    border-bottom: 5px solid blue;
+}
+/*new block 2 */
+.second_block_photo {
+    background-image: url('https://c.stocksy.com/a/Neh300/z9/882779.jpg?1556045155');
+    position: relative;
+    background-size: cover;
+    width: 100%;
+}
+.second_block_title,.text_big, .text_small, .second_block_buttom {
+    color: white;
+    text-align: center;
+}
+.second_block_title {
+    padding-top: 100px;
+    font-size: 20px;
+}
+.text_big {
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0px 250px 5px 250px;
+}
+.text_small {
+    text-align: center;
+    font-style: oblique;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 1.5;
+}
+.second_block_buttom {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid white;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 3% 43% 7% 43%;
+    text-decoration: none;
+}
+.second_block_buttom:hover {
+    background-color: green;
+}
+.blue {
+    background-color: rgba(51,79,107,0.7)
+}
+/* new block 3 */
+.third_block {
+    text-align: center;
+}
+.third_block_description {
+    padding-top: 30px;
+    font-size: 35px;
+    color: #576770; 
+}
+.main_in_third_block {
+    color:#729fc5;
+    text-transform: uppercase;
+}
+.photo_2 {
+    display: inline-block;
+    width: 33.1%;
+}
+.description_third_block {
+    color:#9d9e9e;
+    text-align: center;
+}
+ /* new block 4 */
+.fordh_block {
+    background-image: url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    position: relative;
+    background-size: 100%;
+    }
+.main_in_fordh_block, .second_main_in_fordh_block, .fordh_block_items {
+    position: right;
+    width: 60%;
+    padding-left: 100px;
+}
+.main_in_fordh_block {
+    padding-top: 50px;
+    text-transform: capitalize;
+    color: #ef8225
+}
+.second_main_in_fordh_block {
+    color: white;
+    padding-top: -15px;
+}
+.fordh_block_items {
+    color: lightgray;
+    line-height: 1.5;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+.fordh_block_items_1 {
+    padding-top: 15px;
+}
+.fordh_block_photo_backround {
+    background-color: rgba(25,30,32,0.9);
+}
+/* new block 5 */
+.five_block_text {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 40px;
+    color: #298b966e;
+}
+.five_block_position {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.parent, .parent_1, .parent_2 {
+    display: inline-block;
+    vertical-align: top;
+}
+.parent {
+    position: relative;
+    border: 3px solid #ef8225;
+    width: 250px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 3;
+
+}
+.parent_1 {
+    position: relative;
+    border: 1px solid #f1f2f3;
+    width: 250px;
+    border-radius: 5px;
+    z-index: 1;
+    margin: 10px -5px 0px 0px;
+}
+.parent_2 {
+    position: relative;
+    border: 1px solid #f1f2f3;
+    width: 250px;
+    border-radius: 5px;
+    z-index: 1;
+    margin: 10px 0px 0px -5px;
+}
+.headerr, .headerr_1, .headerr_2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight:bold;
+}
+.headerr {
+    background-color:	#ef8225;
+    padding: 20px;
+}
+.headerr_1 {
+    background-color: #34c4d4;
+    padding: 10px;
+}
+.headerr_2 {
+    background-color:#15b99b;
+    padding: 10px; 
+}
+.price, .price_1, .price_2 {
+position: relative;
+background-color: white;
+text-align: center;
+font-size: 20px;  
+color:#334758;
+}
+.price {
+    padding: 10px 0px 0px 0px;
+}
+.price_1 {
+    padding: 10px 0px 0px 0px;
+}
+.price_2 {
+    padding: 10px 0px 0px 0px;
+}
+.offers-list, .offers-list_1, .offers-list_2 {
+   position: relative;
+   padding: 10px;
+}
+.buttom, .buttom_1, .buttom_2 {
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    margin: 20px 20px 30px 20px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size:15px;
+}
+.buttom {
+    background-color: #ef8225;
+    text-decoration: none;
+}
+.buttom_1 {
+    background-color: #3071a7;
+    text-decoration: none;
+}
+.buttom_2 {
+    background-color:#3071a7;
+    text-decoration: none;
+}
+sup, sub {
+    font-size:15px;
+}
+.offers-list__item_gray {
+    background-color: #edf5fd;
+    display: block;
+    border: 1px solid white;
+    color: rgb(192, 189, 189);
+    padding: 0px 0px 0px 15px;
+}
+.offers-list__item_darck {
+    background-color: #f5f5f6;
+    display: block;
+    border: 1px solid white;
+    color: rgb(192, 189, 189);
+    padding: 0px 0px 0px 15px;
+}
+span {
+    font-size:55px;
+    font-weight:bold; 
+}
+sup {
+    vertical-align: top;
+}
+.offers-list__item_darck:before {
+    content: url(/html/Без\ имени.png); 
+}
+.offers-list__item_gray::before {
+    content: url(/html/Без\ имени.png);
+}
+.buttom:hover, .buttom_1:hover, .buttom_2:hover {
+    background-color: green;
+}
+/* new block */
+.opinions {
+    position: relative;
+    display: inline-block;
+    background-image: url("https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");  
+    background-size: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+}
+.head {
+    position: relative;
+    font-size: 35px;
+    text-align: center;
+    color: blue;
+}
+.color_one {
+    color: orange;
+}
+.position {
+    padding: 30px 30px 30px 100px;
+}
+.pickture_girl {
+    float: left;
+    content: url('https://lyubeshiv.rayon.in.ua/upload/news/13/2018-09/1536222696167/t_1_timoshenko.jpg');
+    height: 75px;
+}
+.opinion_one {
+    float: left;
+    margin-left: 15px;
+    background-color: white;
+    position: relative; 
+    width: 350px;
+    padding: 0px 10px 0px 10px;
+    text-align: left;
+    font-size: 12px;
+}
+.pickture_man {
+    float: left;
+    margin-left: 45px;
+position: relative;
+content: url('https://img.rl0.ru/a72636822112474ddca182a6f6db67f7/c615x400/news.rambler.ru/img/2019/02/26173208.071567.2643.jpeg');
+height: 75px;
+}
+.opinion_two {
+    float: left;
+    margin-left: 15px;
+    background-color: white;
+    position: relative;
+    width: 350px;  
+    padding: 0px 10px 0px 10px;
+    text-align: left;
+    font-size: 12px;
+}
+.Name {
+    color: blue;
+    position: reletive;
+    font-size: 10px;
+}
+.client {
+    float: right;
+    color: blue;
+    font-size: 10px;
+}
+.six_block_backround {
+    background-color: rgba(25,30,32,1);
+}
+/* new block */
+.seventh_block {
+    position: relative;
+    height: 380px;
+}
+.left_side_seventh_block {
+    display: inline-block;
+    position: absolute;
+    padding: 30px 0px 0px 0px;
+    line-height: 1.5em;
+}
+
+.seventh_block_contact_sdres_picture {
+    padding: 15px 20px 0px 100px;
+    position: absolute;
+}
+.some {
+    display: inline-block;
+    padding: 0px 0px 0px 150px;
+}
+.seventh_block_items {
+    padding: 0px 20px 0px 100px;
+}
+.seventh_block_map {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* New block */
+.blue_line {
+    background-color: #2c70a9;
+    padding: 3px;
+}
+.blue_line_text {
+text-align: center;
+color:white;
+font-size: 13px;
+}
+.eight_block_company_name_color {
+    color: black;
+    font-size: 13px;
+}
